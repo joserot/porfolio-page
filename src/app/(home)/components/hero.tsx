@@ -6,6 +6,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFile } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
+import Link from "next/link";
+
+//
+
 export default function Hero() {
   return (
     <article
@@ -49,11 +53,28 @@ export default function Hero() {
             el performance y la estética.
           </p>
           <div className="flex gap-3 items-center">
-            <Button className="flex items-center justify-center gap-3 font-bold">
-              CV <FontAwesomeIcon icon={faFile} />
+            <Button
+              className="flex items-center justify-center gap-3 font-bold"
+              asChild
+            >
+              <a
+                href="https://drive.google.com/file/d/1lfg87toLceIyrK6WYQdeBh_HxIVjtxid/view?usp=sharing"
+                target="_blank"
+              >
+                CV <FontAwesomeIcon icon={faFile} />
+              </a>
             </Button>
-            <Button className="flex items-center justify-center gap-3 bg-[#0e76a8] hover:bg-[#0e77a8d5] font-bold">
-              LinkedIn <FontAwesomeIcon icon={faLinkedin} />
+
+            <Button
+              className="flex items-center justify-center gap-3 bg-[#0e76a8] hover:bg-[#0e77a8d5] font-bold"
+              asChild
+            >
+              <a
+                href="https://www.linkedin.com/in/jose-rotchen/"
+                target="_blank"
+              >
+                LinkedIn <FontAwesomeIcon icon={faLinkedin} />
+              </a>
             </Button>
           </div>
         </div>

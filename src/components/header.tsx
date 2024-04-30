@@ -6,7 +6,7 @@ import { ModeToggle } from "@/components/ui/mode-toggle";
 import { useEffect, useState } from "react";
 
 export default function Header() {
-  const [visible, setVisible] = useState(true);
+  const [visible, setVisible] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {

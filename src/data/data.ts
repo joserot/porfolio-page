@@ -8,14 +8,6 @@ export const projectsList = [
     href: "https://www.pe.busquemostrabajo.com/",
   },
   {
-    title: "Siempre fit",
-    description:
-      "Cursos de entrenamiento y nutrición, retos, planes de nutrición y entrenamiento personalizados",
-    image: "/siempre-fit.png",
-    technologies: ["Next.js", "React", "Sass", "TypeScript"],
-    href: "https://siempre-fit.vercel.app/",
-  },
-  {
     title: "Servify",
     description:
       "Encuentra un profesional en tu ciudad para la tarea que necesites",
@@ -30,6 +22,15 @@ export const projectsList = [
     ],
     href: "https://servify-page.vercel.app/",
   },
+  {
+    title: "Siempre fit",
+    description:
+      "Cursos de entrenamiento y nutrición, retos, planes de nutrición y entrenamiento personalizados",
+    image: "/siempre-fit.png",
+    technologies: ["Next.js", "React", "Sass", "TypeScript"],
+    href: "https://siempre-fit.vercel.app/",
+  },
+
   {
     title: "vivevacationsoutlet.com",
     description:

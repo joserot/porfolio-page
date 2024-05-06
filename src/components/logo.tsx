@@ -19,7 +19,7 @@ export default function Logo({ visible }: Props) {
             flex
             gap-2
             items-center
-            ${visible ? "opacity-1" : "opacity-0"}
+            ${visible ? "translate-y-0" : "-translate-y-40"}
             transition-all
             `}
       >

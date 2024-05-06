@@ -2,11 +2,38 @@
 
 import Logo from "./logo";
 import { ModeToggle } from "@/components/ui/mode-toggle";
+import {
+  Select,
+  SelectContent,
+  SelectGroup,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
 
 import { useEffect, useState } from "react";
 
-export default function Header() {
+import { useRouter } from "next/navigation";
+
+const languages = [
+  {
+    label: "EN",
+    value: "en",
+  },
+  {
+    label: "ES",
+    value: "es",
+  },
+];
+
+interface Props {
+  lang: Lang;
+}
+
+export default function Header({ lang }: Props) {
   const [visible, setVisible] = useState(false);
+
+  const router = useRouter();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -66,6 +93,28 @@ export default function Header() {
             gap-3
         "
         >
+          <Select
+            defaultValue={lang}
+            required
+            onValueChange={(value) => {
+              router.push(`/${value}`);
+            }}
+          >
+            <SelectTrigger>
+              <SelectValue placeholder="Selecciona la profesion" />
+            </SelectTrigger>
+            <SelectContent>
+              <SelectGroup>
+                {languages.map((language) => {
+                  return (
+                    <SelectItem key={language.value} value={language.value}>
+                      {language.label}
+                    </SelectItem>
+                  );
+                })}
+              </SelectGroup>
+            </SelectContent>
+          </Select>
           <ModeToggle />
         </div>
       </div>

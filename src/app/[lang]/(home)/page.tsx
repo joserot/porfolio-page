@@ -5,15 +5,19 @@ import Projects from "./components/projects";
 import Experience from "./components/experience";
 import Education from "./components/education";
 
-export default function Home() {
+interface Props {
+  params: { lang: Lang };
+}
+
+export default function Home({ params: { lang } }: Props) {
   return (
     <main>
-      <Header />
-      <Hero />
-      <Experience />
-      <Education />
-      <Projects />
-      <Footer />
+      <Header lang={lang} />
+      <Hero lang={lang} />
+      <Experience lang={lang} />
+      <Education lang={lang} />
+      <Projects lang={lang} />
+      <Footer lang={lang} />
     </main>
   );
 }

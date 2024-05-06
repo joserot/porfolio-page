@@ -5,7 +5,11 @@ import { faEnvelope, faPaperPlane } from "@fortawesome/free-solid-svg-icons";
 import { Input } from "./ui/input";
 import { Button } from "./ui/button";
 
-export default function Footer() {
+interface Props {
+  lang: Lang;
+}
+
+export default function Footer({ lang }: Props) {
   const sendEmail = () => window.open("mailto:jose.rotchen14@gmail.com");
 
   return (

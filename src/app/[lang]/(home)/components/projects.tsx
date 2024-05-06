@@ -2,9 +2,14 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFaceLaugh } from "@fortawesome/free-solid-svg-icons";
 
 import ProjectCard from "./project-card";
-import { projectsList } from "@/data/data";
 
-export default function Projects() {
+interface Props {
+  lang: Lang;
+}
+
+export default async function Projects({ lang }: Props) {
+  const dictionary = await import(`@/app/dictionaries/${lang}.json`);
+
   return (
     <article
       className="
@@ -38,7 +43,7 @@ export default function Projects() {
           />
         </div>
         <div className="w-full flex flex-col gap-5 md:gap-10">
-          {projectsList.map((project, i) => {
+          {dictionary.projectsList.map((project: any, i: any) => {
             return (
               <ProjectCard
                 key={i}

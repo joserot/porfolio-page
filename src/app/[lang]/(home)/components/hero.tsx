@@ -6,11 +6,13 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFile } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
-import Link from "next/link";
+interface Props {
+  lang: Lang;
+}
 
-//
+export default async function Hero({ lang }: Props) {
+  const dictionary = await import(`@/app/dictionaries/${lang}.json`);
 
-export default function Hero() {
   return (
     <article
       className="
@@ -45,12 +47,10 @@ export default function Hero() {
         <div className="w-full max-w-[500px] md:max-w-none md:w-9/12 justify-center items-center flex flex-col md:items-start">
           <h1 className="text-2xl md:text-4xl font-bold">Jose Rotchen</h1>
           <h2 className="text-xl md:text-2xl font-semibold text-primary mb-2">
-            Frontend developer
+            {dictionary.position}
           </h2>
           <p className="text-foreground mb-2 text-center md:text-left text-balance">
-            Soy un desarrollador Full-stack especializado en Frontend, me
-            apasiona crear interfaces de usuario enfocandome en la usabilidad,
-            el performance y la estética.
+            {dictionary.title}
           </p>
           <div className="flex gap-3 items-center">
             <Button
@@ -61,7 +61,7 @@ export default function Hero() {
                 href="https://drive.google.com/file/d/1lfg87toLceIyrK6WYQdeBh_HxIVjtxid/view?usp=sharing"
                 target="_blank"
               >
-                CV <FontAwesomeIcon icon={faFile} />
+                {dictionary.resumeBtnText} <FontAwesomeIcon icon={faFile} />
               </a>
             </Button>
 

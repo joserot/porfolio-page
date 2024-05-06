@@ -39,7 +39,7 @@ export default function Header({ lang }: Props) {
     const handleScroll = () => {
       let moving = window.pageYOffset;
 
-      if (moving > 300) {
+      if (moving > 100) {
         setVisible(true);
       } else {
         setVisible(false);

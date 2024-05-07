@@ -14,6 +14,7 @@ import {
 import { useEffect, useState } from "react";
 
 import { useRouter } from "next/navigation";
+import Link from "next/link";
 
 const languages = [
   {
@@ -97,7 +98,7 @@ export default function Header({ lang }: Props) {
             defaultValue={lang}
             required
             onValueChange={(value) => {
-              router.push(`/${value}`);
+              router.replace(`/${value}`);
             }}
           >
             <SelectTrigger>

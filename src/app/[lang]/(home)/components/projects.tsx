@@ -35,7 +35,7 @@ export default async function Projects({ lang }: Props) {
       >
         <div className="flex items-center gap-3 mb-2">
           <h2 className="text-xl md:text-2xl font-semibold text-primary">
-            Proyectos
+            {dictionary.projectsTitle}
           </h2>
           <FontAwesomeIcon
             className="text-primary w-6 h-auto"
@@ -52,6 +52,7 @@ export default async function Projects({ lang }: Props) {
                 image={project.image}
                 technologies={project.technologies}
                 href={project.href}
+                lang={lang}
               />
             );
           })}

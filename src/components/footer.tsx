@@ -9,7 +9,9 @@ interface Props {
   lang: Lang;
 }
 
-export default function Footer({ lang }: Props) {
+export default async function Footer({ lang }: Props) {
+  const dictionary = await import(`@/app/dictionaries/${lang}.json`);
+
   const sendEmail = () => window.open("mailto:jose.rotchen14@gmail.com");
 
   return (
@@ -50,7 +52,7 @@ export default function Footer({ lang }: Props) {
             onClick={sendEmail}
             className="flex gap-2 items-center font-bold"
           >
-            Enviar un email
+            {dictionary.sendEmail}
             <FontAwesomeIcon icon={faPaperPlane} />
           </Button>
         </div>

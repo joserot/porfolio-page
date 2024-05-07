@@ -39,6 +39,8 @@
       ]
     }
   ],
+  "projectsTitle": "Proyectos",
+  "seeProject": "Ver proyecto",
   "projectsList": [
     {
       "title": "Busquemostrabajo.com",
@@ -104,5 +106,6 @@
       "technologies": ["Next.js", "React", "Tailwind", "TypeScript"],
       "href": "https://rapitienda.vercel.app/chocodeli"
     }
-  ]
+  ],
+  "sendEmail": "Enviar un email"
 }

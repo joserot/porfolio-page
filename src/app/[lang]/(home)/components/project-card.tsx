@@ -14,16 +14,20 @@ interface Props {
   image: string;
   technologies: string[];
   href: string;
+  lang: Lang;
 }
 
-export default function ProjectCard({
+export default async function ProjectCard({
   title,
   description,
   image,
   technologies,
   href,
+  lang,
 }: Props) {
   const handleClick = (link: string) => window.open(link, "_blank");
+
+  const dictionary = await import(`@/app/dictionaries/${lang}.json`);
 
   return (
     <div
@@ -64,7 +68,7 @@ export default function ProjectCard({
           className="text-primary flex items-center gap-2 hover:gap-4 hover:underline font-bold transition-all"
           href={href}
         >
-          Ver proyecto <FontAwesomeIcon icon={faArrowRight} />
+          {dictionary.seeProject} <FontAwesomeIcon icon={faArrowRight} />
         </Link>
       </div>
     </div>

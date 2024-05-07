@@ -8,6 +8,8 @@ import { ThemeProvider } from "@/components/ui/theme-provider";
 const font = Nunito({
   subsets: ["latin"],
   weight: ["200", "300", "400", "500", "600", "700", "800"],
+  display: "swap",
+  preload: true,
 });
 
 export const metadata: Metadata = {

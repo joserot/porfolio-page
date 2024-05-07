@@ -5,22 +5,22 @@
   "educationTitle": "Education",
   "educationList": [
     {
-      "title": "Licenciatura en informática",
+      "title": "Degree in computer science",
       "instituttion": "Universidad Siglo 21",
-      "startDate": "Ene 2024",
-      "endDate": "Actualidad"
+      "startDate": "Jan 2024",
+      "endDate": "Present"
     },
     {
-      "title": "Técnicatura en programación",
+      "title": "Programming Technique",
       "instituttion": "Teclab",
-      "startDate": "Ene 2022",
-      "endDate": "Ene 2024"
+      "startDate": "Jan 2022",
+      "endDate": "Jan 2024"
     },
     {
-      "title": "Desarrollo Full-Stack",
+      "title": "Full-Stack Development",
       "instituttion": "APX",
-      "startDate": "Ene 2021",
-      "endDate": "Dic 2021"
+      "startDate": "Jan 2021",
+      "endDate": "Dec 2021"
     }
   ],
   "experienceTitle": "Experince",
@@ -29,27 +29,29 @@
       "position": "Frontend Dev",
       "company": "Reestructuración Digital",
       "startDate": "Sep 2022",
-      "endDate": "Actualidad",
+      "endDate": "Present",
       "work": [
-        "Desarrollar desde cero el Frontend de la app BusquemosTrabajo.com",
-        "Optimizar la página para que tenga buena puntuación en Google Page Speed",
-        "Optimizar el rendimiento de la página manejando mejor la carga de recursos",
-        "Mejorar el SEO de la página",
-        "Mejores practicas de accesibilidad"
+        "Develop the Frontend of the BusquemosTrabajo.com app from scratch",
+        "Optimize the page so that it has a good score on Google Page Speed",
+        "Optimize page performance by better managing resource loading",
+        "Improve page SEO",
+        "Accessibility best practices"
       ]
     }
   ],
+  "projectsTitle": "Projects",
+  "seeProject": "See project",
   "projectsList": [
     {
       "title": "Busquemostrabajo.com",
-      "description": "Portal de empleos donde las empresas pueden crear ofertas y darles seguimiento, asi como también los postulantes pueden ver datos de sus postulaciones, entre muchas otras funciones",
+      "description": "Job portal where companies can create offers and track them, as well as applicants can see data about their applications, among many other functions",
       "image": "/busquemos-trabajo.png",
       "technologies": ["Next.js", "React", "Sass", "Firebase", "JavaScript"],
       "href": "https://www.pe.busquemostrabajo.com/"
     },
     {
       "title": "Servify",
-      "description": "Encuentra un profesional en tu ciudad para la tarea que necesites",
+      "description": "Find a professional in your city for the task you need",
       "image": "/servify.png",
       "technologies": [
         "Next.js",
@@ -63,7 +65,7 @@
     },
     {
       "title": "Siempre fit",
-      "description": "Cursos de entrenamiento y nutrición, retos, planes de nutrición y entrenamiento personalizados",
+      "description": "Training and nutrition courses, challenges, nutrition plans and personalized training",
       "image": "/siempre-fit.png",
       "technologies": ["Next.js", "React", "Sass", "TypeScript"],
       "href": "https://siempre-fit.vercel.app/"
@@ -71,38 +73,39 @@
 
     {
       "title": "vivevacationsoutlet.com",
-      "description": "Página para realizar reservas a distintos resorts en las ubicaciones disponibles, todo cargado desde un CMS",
+      "description": "Page to make reservations to different resorts in the available locations, all loaded from a CMS",
       "image": "/vvo.png",
       "technologies": ["Next.js", "React", "Contentful", "TypeScript"],
       "href": "https://www.vivevacationsoutlet.com/"
     },
     {
       "title": "Almacen del bioquímico",
-      "description": "Página de presentación para empresa dedicada a la venta de productos bioquímicos",
+      "description": "Presentation page for a company dedicated to the sale of biochemical products",
       "image": "/adb.png",
       "technologies": ["Next.js", "React", "Sass", "TypeScript"],
       "href": "https://www.almacendelbioquimico.com.ar/"
     },
     {
       "title": "Distribuidora mayorista de productos veterinarios",
-      "description": "Página de presentación para empresa dedicada a la venta de productos veterinarios",
+      "description": "Presentation page for a company dedicated to the sale of veterinary products",
       "image": "/sense.png",
       "technologies": ["Next.js", "React", "Tailwind", "TypeScript"],
       "href": "https://sense-mayorista.vercel.app/"
     },
     {
       "title": "Tasa tu propiedad online",
-      "description": "Página creada como prototipo para un agente inmobiliario, en donde se calcula el valor de la propiedad en base a distintos parámtros",
+      "description": "Page created as a prototype for a real estate agent, where the value of the property is calculated based on different parameters",
       "image": "/calculadora.png",
       "technologies": ["Next.js", "React", "Tailwind", "TypeScript"],
       "href": "https://tasacion.vercel.app/"
     },
     {
       "title": "Rapitienda",
-      "description": "Prototipo de tienda, creada con rapitienda",
+      "description": "Store prototype, created with rapitienda",
       "image": "/rapitienda.png",
       "technologies": ["Next.js", "React", "Tailwind", "TypeScript"],
       "href": "https://rapitienda.vercel.app/chocodeli"
     }
-  ]
+  ],
+  "sendEmail": "Send an email"
 }

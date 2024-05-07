@@ -49,7 +49,7 @@ export default function Header({ lang }: Props) {
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  });
+  }, [lang]);
 
   return (
     <header
@@ -101,9 +101,16 @@ export default function Header({ lang }: Props) {
             }}
           >
             <SelectTrigger>
-              <SelectValue placeholder="Selecciona la profesion" />
+              <SelectValue />
             </SelectTrigger>
-            <SelectContent>
+            <SelectContent
+              ref={(ref) => {
+                if (!ref) return;
+                ref.ontouchstart = (e) => {
+                  e.preventDefault();
+                };
+              }}
+            >
               <SelectGroup>
                 {languages.map((language) => {
                   return (

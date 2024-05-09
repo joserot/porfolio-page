@@ -93,6 +93,13 @@
       "href": "https://sense-mayorista.vercel.app/"
     },
     {
+      "title": "AMAC - Asociacion Maderera y Afines de Corrientes",
+      "description": "Página de la Asociacion Maderera y Afines de Corrientes",
+      "image": "/amac.png",
+      "technologies": ["Next.js", "React", "Javacript", "CSS Modules"],
+      "href": "https://amac-nine.vercel.app/"
+    },
+    {
       "title": "Tasa tu propiedad online",
       "description": "Página creada como prototipo para un agente inmobiliario, en donde se calcula el valor de la propiedad en base a distintos parámtros",
       "image": "/calculadora.png",

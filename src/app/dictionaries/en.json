@@ -93,6 +93,13 @@
       "href": "https://sense-mayorista.vercel.app/"
     },
     {
+      "title": "AMAC - Asociacion Maderera y Afines de Corrientes",
+      "description": "Page of the Lumber and Related Association of Corrientes",
+      "image": "/amac.png",
+      "technologies": ["Next.js", "React", "Javacript", "CSS Modules"],
+      "href": "https://amac-nine.vercel.app/"
+    },
+    {
       "title": "Tasa tu propiedad online",
       "description": "Page created as a prototype for a real estate agent, where the value of the property is calculated based on different parameters",
       "image": "/calculadora.png",

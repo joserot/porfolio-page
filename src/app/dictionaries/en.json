@@ -43,16 +43,9 @@
   "seeProject": "See project",
   "projectsList": [
     {
-      "title": "Busquemostrabajo.com",
-      "description": "Job portal where companies can create offers and track them, as well as applicants can see data about their applications, among many other functions",
-      "image": "/busquemos-trabajo.png",
-      "technologies": ["Next.js", "React", "Sass", "Firebase", "JavaScript"],
-      "href": "https://www.pe.busquemostrabajo.com/"
-    },
-    {
       "title": "Servify",
       "description": "Find a professional in your city for the task you need",
-      "image": "/servify.png",
+      "image": "/servify.gif",
       "technologies": [
         "Next.js",
         "React",
@@ -63,6 +56,14 @@
       ],
       "href": "https://servify-page.vercel.app/"
     },
+    {
+      "title": "Busquemostrabajo.com",
+      "description": "Job portal where companies can create offers and track them, as well as applicants can see data about their applications, among many other functions",
+      "image": "/busquemos-trabajo.png",
+      "technologies": ["Next.js", "React", "Sass", "Firebase", "JavaScript"],
+      "href": "https://www.pe.busquemostrabajo.com/"
+    },
+
     {
       "title": "Siempre fit",
       "description": "Training and nutrition courses, challenges, nutrition plans and personalized training",
@@ -96,7 +97,13 @@
       "title": "AMAC - Asociacion Maderera y Afines de Corrientes",
       "description": "Page of the Lumber and Related Association of Corrientes",
       "image": "/amac.png",
-      "technologies": ["Next.js", "React", "Javacript", "CSS Modules"],
+      "technologies": [
+        "Next.js",
+        "React",
+        "Javacript",
+        "CSS Modules",
+        "MongoDB"
+      ],
       "href": "https://amac-nine.vercel.app/"
     },
     {

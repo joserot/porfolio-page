@@ -59,7 +59,7 @@
     {
       "title": "Busquemostrabajo.com",
       "description": "Job portal where companies can create offers and track them, as well as applicants can see data about their applications, among many other functions",
-      "image": "/busquemos-trabajo.png",
+      "image": "/busquemos-trabajo.gif",
       "technologies": ["Next.js", "React", "Sass", "Firebase", "JavaScript"],
       "href": "https://www.pe.busquemostrabajo.com/"
     },
@@ -67,7 +67,7 @@
     {
       "title": "Siempre fit",
       "description": "Training and nutrition courses, challenges, nutrition plans and personalized training",
-      "image": "/siempre-fit.png",
+      "image": "/siempre-fit.gif",
       "technologies": ["Next.js", "React", "Sass", "TypeScript"],
       "href": "https://siempre-fit.vercel.app/"
     },
@@ -75,28 +75,28 @@
     {
       "title": "vivevacationsoutlet.com",
       "description": "Page to make reservations to different resorts in the available locations, all loaded from a CMS",
-      "image": "/vvo.png",
+      "image": "/vvo.gif",
       "technologies": ["Next.js", "React", "Contentful", "TypeScript"],
       "href": "https://www.vivevacationsoutlet.com/"
     },
     {
       "title": "Almacen del bioquímico",
       "description": "Presentation page for a company dedicated to the sale of biochemical products",
-      "image": "/adb.png",
+      "image": "/adb.gif",
       "technologies": ["Next.js", "React", "Sass", "TypeScript"],
       "href": "https://www.almacendelbioquimico.com.ar/"
     },
     {
       "title": "Distribuidora mayorista de productos veterinarios",
       "description": "Presentation page for a company dedicated to the sale of veterinary products",
-      "image": "/sense.png",
+      "image": "/sense.gif",
       "technologies": ["Next.js", "React", "Tailwind", "TypeScript"],
       "href": "https://sense-mayorista.vercel.app/"
     },
     {
       "title": "AMAC - Asociacion Maderera y Afines de Corrientes",
       "description": "Page of the Lumber and Related Association of Corrientes",
-      "image": "/amac.png",
+      "image": "/amac.gif",
       "technologies": [
         "Next.js",
         "React",
@@ -105,20 +105,6 @@
         "MongoDB"
       ],
       "href": "https://amac-nine.vercel.app/"
-    },
-    {
-      "title": "Tasa tu propiedad online",
-      "description": "Page created as a prototype for a real estate agent, where the value of the property is calculated based on different parameters",
-      "image": "/calculadora.png",
-      "technologies": ["Next.js", "React", "Tailwind", "TypeScript"],
-      "href": "https://tasacion.vercel.app/"
-    },
-    {
-      "title": "Rapitienda",
-      "description": "Store prototype, created with rapitienda",
-      "image": "/rapitienda.png",
-      "technologies": ["Next.js", "React", "Tailwind", "TypeScript"],
-      "href": "https://rapitienda.vercel.app/chocodeli"
     }
   ],
   "sendEmail": "Send an email"

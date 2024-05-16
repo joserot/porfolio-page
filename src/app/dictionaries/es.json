@@ -1,7 +1,8 @@
 {
   "position": "Desarrollador Frontend",
-  "title": "Soy un desarrollador Full-stack especializado en Frontend, me apasiona crear interfaces de usuario enfocandome en la  usabilidad, el performance y la estética.",
+  "title": "Soy un desarrollador Full-stack especializado en Frontend, me apasiona crear interfaces de usuario enfocandome en la  usabilidad, el performance y la UX.",
   "resumeBtnText": "CV",
+  "cvLink": "https://drive.google.com/file/d/126NVokNdygCJnmXUMQRYPrU2JtDJD6tA/view?usp=sharing",
   "educationTitle": "Educación",
   "educationList": [
     {
@@ -31,11 +32,11 @@
       "startDate": "Sep 2022",
       "endDate": "Actualidad",
       "work": [
-        "Desarrollar desde cero el Frontend de la app BusquemosTrabajo.com",
-        "Optimizar la página para que tenga buena puntuación en Google Page Speed",
-        "Optimizar el rendimiento de la página manejando mejor la carga de recursos",
-        "Mejorar el SEO de la página",
-        "Mejores practicas de accesibilidad"
+        "Desarrollé el Frontend de Busquemostrabajo.com desde cero, además de otros proyectos similares.",
+        "Optimicé la web para obtener la mayor puntuación posible en Google Page Speed.",
+        "Incrementé la velocidad de la primera carga en un 50%.",
+        "Mejoré el SEO y accesibilidad en los proyectos en los que trabajé.",
+        "Apliqué CI/CD en los proyectos en los que trabajé."
       ]
     }
   ],

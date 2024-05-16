@@ -57,10 +57,7 @@ export default async function Hero({ lang }: Props) {
               className="flex items-center justify-center gap-3 font-bold"
               asChild
             >
-              <a
-                href="https://drive.google.com/file/d/1lfg87toLceIyrK6WYQdeBh_HxIVjtxid/view?usp=sharing"
-                target="_blank"
-              >
+              <a href={dictionary.cvLink} target="_blank">
                 {dictionary.resumeBtnText} <FontAwesomeIcon icon={faFile} />
               </a>
             </Button>

@@ -14,15 +14,25 @@ import {
 import { useEffect, useState } from "react";
 
 import { useRouter } from "next/navigation";
-import Link from "next/link";
+
+import Image from "next/image";
 
 const languages = [
   {
-    label: "EN",
+    label: (
+      <Image
+        src={"/en.png"}
+        width={20}
+        height={20}
+        alt="Bandera de Inglaterra"
+      />
+    ),
     value: "en",
   },
   {
-    label: "ES",
+    label: (
+      <Image src={"/es.png"} width={20} height={20} alt="Bandera de España" />
+    ),
     value: "es",
   },
 ];

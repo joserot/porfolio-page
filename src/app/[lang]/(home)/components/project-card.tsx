@@ -39,6 +39,9 @@ export default async function ProjectCard({
       justify-start
       items-start
       gap-5
+      bg-card
+      rounded-md
+      md:p-5
 "
     >
       <div
@@ -55,7 +58,7 @@ export default async function ProjectCard({
           height={300}
         />
       </div>
-      <div className="w-full md:w-1/2">
+      <div className="w-full p-3 md:p-0 md:w-1/2">
         <h3 className="text-2xl font-bold">{title}</h3>
         <p className="text-foreground">{description}</p>
         <div className="flex gap-2 flex-wrap py-1 mb-2">

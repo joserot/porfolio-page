@@ -30,7 +30,7 @@ export default async function Projects({ lang }: Props) {
             gap-5
             py-5
             md:py-10
-           
+
             "
       >
         <div className="flex items-center gap-3 mb-2">
@@ -42,7 +42,7 @@ export default async function Projects({ lang }: Props) {
             icon={faFaceLaugh}
           />
         </div>
-        <div className="w-full flex flex-col gap-5 md:gap-10">
+        <div className="w-full flex flex-col gap-10 md:gap-5">
           {dictionary.projectsList.map((project: any, i: any) => {
             return (
               <ProjectCard

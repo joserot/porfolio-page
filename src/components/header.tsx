@@ -20,18 +20,24 @@ import Image from "next/image";
 const languages = [
   {
     label: (
-      <Image
-        src={"/en.png"}
-        width={20}
-        height={20}
-        alt="Bandera de Inglaterra"
-      />
+      <div className="flex items-center gap-2">
+        <Image
+          src={"/en.png"}
+          width={20}
+          height={20}
+          alt="Bandera de Inglaterra"
+        />
+        <span className="text-xs">English</span>
+      </div>
     ),
     value: "en",
   },
   {
     label: (
-      <Image src={"/es.png"} width={20} height={20} alt="Bandera de España" />
+      <div className="flex items-center gap-2">
+        <Image src={"/es.png"} width={20} height={20} alt="Bandera de España" />
+        <span className="text-xs">Español</span>
+      </div>
     ),
     value: "es",
   },

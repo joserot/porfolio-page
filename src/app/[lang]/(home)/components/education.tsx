@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faUserGraduate } from "@fortawesome/free-solid-svg-icons";
+import { faGraduationCap } from "@fortawesome/free-solid-svg-icons";
 
 import Circle from "@/components/circle";
 import Line from "@/components/line";
@@ -40,7 +40,7 @@ export default async function Education({ lang }: Props) {
           </h2>
           <FontAwesomeIcon
             className="text-primary w-6 h-auto"
-            icon={faUserGraduate}
+            icon={faGraduationCap}
           />
         </div>
         <div className="w-full flex flex-col gap-5 relative">

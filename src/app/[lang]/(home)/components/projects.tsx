@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFaceLaugh } from "@fortawesome/free-solid-svg-icons";
+import { faCode } from "@fortawesome/free-solid-svg-icons";
 
 import ProjectCard from "./project-card";
 
@@ -37,10 +37,7 @@ export default async function Projects({ lang }: Props) {
           <h2 className="text-xl md:text-2xl font-semibold text-primary">
             {dictionary.projectsTitle}
           </h2>
-          <FontAwesomeIcon
-            className="text-primary w-6 h-auto"
-            icon={faFaceLaugh}
-          />
+          <FontAwesomeIcon className="text-primary w-6 h-auto" icon={faCode} />
         </div>
         <div className="w-full flex flex-col gap-10 md:gap-5">
           {dictionary.projectsList.map((project: any, i: any) => {

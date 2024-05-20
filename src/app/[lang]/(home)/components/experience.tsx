@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
+import { faReact } from "@fortawesome/free-brands-svg-icons";
 
 import Circle from "@/components/circle";
 import Line from "@/components/line";
@@ -38,10 +38,7 @@ export default async function Experience({ lang }: Props) {
           <h2 className="text-xl md:text-2xl font-semibold text-primary">
             {dictionary.experienceTitle}
           </h2>
-          <FontAwesomeIcon
-            className="text-primary w-6 h-auto"
-            icon={faBriefcase}
-          />
+          <FontAwesomeIcon className="text-primary w-6 h-auto" icon={faReact} />
         </div>
         <div className="w-full flex flex-col gap-5 relative">
           {dictionary.experienceList.map((experience: any, index: any) => {

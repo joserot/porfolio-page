@@ -11,7 +11,7 @@ interface Props {
 
 export default function Home({ params: { lang } }: Props) {
   return (
-    <main>
+    <main className="dark:bg-slate-800">
       <Header lang={lang} />
       <Hero lang={lang} />
       <Experience lang={lang} />

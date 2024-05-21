@@ -85,7 +85,7 @@ export default function Header({ lang }: Props) {
             ${
               visible &&
               `bg-white 
-            dark:bg-black
+            dark:bg-slate-800
             bg-opacity-80 
             dark:bg-opacity-80 
             backdrop-blur-lg`

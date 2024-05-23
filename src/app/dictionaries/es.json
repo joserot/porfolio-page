@@ -64,7 +64,13 @@
       "technologies": ["Next.js", "React", "Sass", "Firebase", "JavaScript"],
       "href": "https://www.pe.busquemostrabajo.com/"
     },
-
+    {
+      "title": "vivevacationsoutlet.com",
+      "description": "Página para realizar reservas a distintos resorts en las ubicaciones disponibles, todo cargado desde un CMS",
+      "image": "/vvo.gif",
+      "technologies": ["Next.js", "React", "Contentful", "TypeScript"],
+      "href": "https://www.vivevacationsoutlet.com/"
+    },
     {
       "title": "Siempre fit",
       "description": "Cursos de entrenamiento y nutrición, retos, planes de nutrición y entrenamiento personalizados",
@@ -72,13 +78,18 @@
       "technologies": ["Next.js", "React", "Sass", "TypeScript"],
       "href": "https://siempre-fit.vercel.app/"
     },
-
     {
-      "title": "vivevacationsoutlet.com",
-      "description": "Página para realizar reservas a distintos resorts en las ubicaciones disponibles, todo cargado desde un CMS",
-      "image": "/vvo.gif",
-      "technologies": ["Next.js", "React", "Contentful", "TypeScript"],
-      "href": "https://www.vivevacationsoutlet.com/"
+      "title": "AMAC - Asociacion Maderera y Afines de Corrientes",
+      "description": "Página de la Asociacion Maderera y Afines de Corrientes",
+      "image": "/amac.gif",
+      "technologies": [
+        "Next.js",
+        "React",
+        "Javacript",
+        "CSS Modules",
+        "MongoDB"
+      ],
+      "href": "https://amac-nine.vercel.app/"
     },
     {
       "title": "Almacen del bioquímico",
@@ -93,19 +104,6 @@
       "image": "/sense.gif",
       "technologies": ["Next.js", "React", "Tailwind", "TypeScript"],
       "href": "https://sense-mayorista.vercel.app/"
-    },
-    {
-      "title": "AMAC - Asociacion Maderera y Afines de Corrientes",
-      "description": "Página de la Asociacion Maderera y Afines de Corrientes",
-      "image": "/amac.gif",
-      "technologies": [
-        "Next.js",
-        "React",
-        "Javacript",
-        "CSS Modules",
-        "MongoDB"
-      ],
-      "href": "https://amac-nine.vercel.app/"
     }
   ],
   "sendEmail": "Enviar un email"

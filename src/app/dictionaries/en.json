@@ -24,7 +24,7 @@
       "endDate": "Dec 2021"
     }
   ],
-  "experienceTitle": "Experince",
+  "experienceTitle": "Experience",
   "experienceList": [
     {
       "position": "Frontend Dev",
@@ -64,15 +64,6 @@
       "technologies": ["Next.js", "React", "Sass", "Firebase", "JavaScript"],
       "href": "https://www.pe.busquemostrabajo.com/"
     },
-
-    {
-      "title": "Siempre fit",
-      "description": "Training and nutrition courses, challenges, nutrition plans and personalized training",
-      "image": "/siempre-fit.gif",
-      "technologies": ["Next.js", "React", "Sass", "TypeScript"],
-      "href": "https://siempre-fit.vercel.app/"
-    },
-
     {
       "title": "vivevacationsoutlet.com",
       "description": "Page to make reservations to different resorts in the available locations, all loaded from a CMS",
@@ -80,19 +71,13 @@
       "technologies": ["Next.js", "React", "Contentful", "TypeScript"],
       "href": "https://www.vivevacationsoutlet.com/"
     },
+
     {
-      "title": "Almacen del bioquímico",
-      "description": "Presentation page for a company dedicated to the sale of biochemical products",
-      "image": "/adb.gif",
+      "title": "Siempre fit",
+      "description": "Training and nutrition courses, challenges, nutrition plans and personalized training",
+      "image": "/siempre-fit.gif",
       "technologies": ["Next.js", "React", "Sass", "TypeScript"],
-      "href": "https://www.almacendelbioquimico.com.ar/"
-    },
-    {
-      "title": "Distribuidora mayorista de productos veterinarios",
-      "description": "Presentation page for a company dedicated to the sale of veterinary products",
-      "image": "/sense.gif",
-      "technologies": ["Next.js", "React", "Tailwind", "TypeScript"],
-      "href": "https://sense-mayorista.vercel.app/"
+      "href": "https://siempre-fit.vercel.app/"
     },
     {
       "title": "AMAC - Asociacion Maderera y Afines de Corrientes",
@@ -106,6 +91,21 @@
         "MongoDB"
       ],
       "href": "https://amac-nine.vercel.app/"
+    },
+
+    {
+      "title": "Almacen del bioquímico",
+      "description": "Presentation page for a company dedicated to the sale of biochemical products",
+      "image": "/adb.gif",
+      "technologies": ["Next.js", "React", "Sass", "TypeScript"],
+      "href": "https://www.almacendelbioquimico.com.ar/"
+    },
+    {
+      "title": "Distribuidora mayorista de productos veterinarios",
+      "description": "Presentation page for a company dedicated to the sale of veterinary products",
+      "image": "/sense.gif",
+      "technologies": ["Next.js", "React", "Tailwind", "TypeScript"],
+      "href": "https://sense-mayorista.vercel.app/"
     }
   ],
   "sendEmail": "Send an email"

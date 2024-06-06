@@ -39,7 +39,6 @@ export default async function ProjectCard({
       justify-start
       items-start
       gap-5
-      bg-card
       rounded-md
       md:p-5
 "

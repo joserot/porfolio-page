@@ -13,9 +13,9 @@ const font = Nunito({
 });
 
 export const metadata: Metadata = {
-  title: "Jose Rotchen Portfolio",
+  title: "Jose Rotchen - Desarrollador Web",
   description:
-    "Soy un desarrollador Full-stack especializado en Frontend, me apasiona crear interfaces de usuario rapidas, bonitas y faciles de utilizar",
+    "Soy un desarrollador Full-stack especializado en Frontend con 2 años de experiencia. Mi pasión es crear aplicaciones centrándome en la usabilidad, el rendimiento y la experiencia del usuario (UX). Tengo muchas ganas de seguir creciendo y aprendiendo cada día, y mi sueño es poder crear aplicaciones que mejoren la vida de miles de personas. Posadas, Misiones - Argentina",
 };
 
 export default function RootLayout({

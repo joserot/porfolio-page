@@ -1,9 +1,10 @@
 import Image from "next/image";
 
 import { Button } from "@/components/ui/button";
+import { Badge } from "@/components/ui/badge";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFile } from "@fortawesome/free-solid-svg-icons";
+import { faFile, faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 interface Props {
@@ -49,9 +50,14 @@ export default async function Hero({ lang }: Props) {
           <h2 className="text-xl md:text-2xl font-semibold text-primary mb-2">
             {dictionary.position}
           </h2>
+          <Badge className="flex gap-2 items-center mb-2 bg-gray-300/50 hover:bg-gray-300/50 text-foreground text-sm">
+            <FontAwesomeIcon icon={faLocationDot} />
+            Posadas, Misiones - Argentina
+          </Badge>
           <p className="text-foreground mb-2 text-center md:text-left text-balance">
             {dictionary.title}
           </p>
+
           <div className="flex gap-3 items-center">
             <Button
               className="flex items-center justify-center gap-3 font-bold"

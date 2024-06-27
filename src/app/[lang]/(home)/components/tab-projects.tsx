@@ -17,7 +17,7 @@ export default function TabProjects({ dictionary }: Props) {
 
   return (
     <Tabs defaultValue="account" className="w-full">
-      <TabsList className="grid w-full grid-cols-2">
+      <TabsList className="grid w-full grid-cols-2  mb-5">
         <TabsTrigger value="account">Web apps</TabsTrigger>
         <TabsTrigger value="password">Landing pages</TabsTrigger>
       </TabsList>

@@ -1,7 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCode } from "@fortawesome/free-solid-svg-icons";
-
-import ProjectCard from "./project-card";
+import TabProjects from "./tab-projects";
 
 interface Props {
   lang: Lang;
@@ -39,21 +38,7 @@ export default async function Projects({ lang }: Props) {
           </h2>
           <FontAwesomeIcon className="text-primary w-6 h-auto" icon={faCode} />
         </div>
-        <div className="w-full flex flex-col gap-10 md:gap-5">
-          {dictionary.projectsList.map((project: any, i: any) => {
-            return (
-              <ProjectCard
-                key={i}
-                title={project.title}
-                description={project.description}
-                image={project.image}
-                technologies={project.technologies}
-                href={project.href}
-                lang={lang}
-              />
-            );
-          })}
-        </div>
+        <TabProjects dictionary={dictionary} />
       </div>
     </article>
   );

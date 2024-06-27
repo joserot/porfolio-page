@@ -55,28 +55,32 @@
         "Nest.js",
         "MongoDB"
       ],
-      "href": "https://servify-page.vercel.app/"
+      "href": "https://servify-page.vercel.app/",
+      "type": "web"
     },
     {
       "title": "Busquemostrabajo.com",
       "description": "Portal de empleos donde las empresas pueden crear ofertas y darles seguimiento, asi como también los postulantes pueden ver datos de sus postulaciones, entre muchas otras funciones",
       "image": "/busquemos-trabajo.gif",
       "technologies": ["Next.js", "React", "Sass", "Firebase", "JavaScript"],
-      "href": "https://www.pe.busquemostrabajo.com/"
+      "href": "https://www.pe.busquemostrabajo.com/",
+      "type": "web"
     },
     {
       "title": "vivevacationsoutlet.com",
       "description": "Página para realizar reservas a distintos resorts en las ubicaciones disponibles, todo cargado desde un CMS",
       "image": "/vvo.gif",
       "technologies": ["Next.js", "React", "Contentful", "TypeScript"],
-      "href": "https://www.vivevacationsoutlet.com/"
+      "href": "https://www.vivevacationsoutlet.com/",
+      "type": "landing"
     },
     {
       "title": "Siempre fit",
       "description": "Cursos de entrenamiento y nutrición, retos, planes de nutrición y entrenamiento personalizados",
       "image": "/siempre-fit.gif",
       "technologies": ["Next.js", "React", "Sass", "TypeScript"],
-      "href": "https://siempre-fit.vercel.app/"
+      "href": "https://siempre-fit.vercel.app/",
+      "type": "web"
     },
     {
       "title": "AMAC - Asociacion Maderera y Afines de Corrientes",
@@ -89,21 +93,24 @@
         "CSS Modules",
         "MongoDB"
       ],
-      "href": "https://amac-nine.vercel.app/"
+      "href": "https://amac-nine.vercel.app/",
+      "type": "landing"
     },
     {
       "title": "Almacen del bioquímico",
       "description": "Página de presentación para empresa dedicada a la venta de productos bioquímicos",
       "image": "/adb.gif",
       "technologies": ["Next.js", "React", "Sass", "TypeScript"],
-      "href": "https://www.almacendelbioquimico.com.ar/"
+      "href": "https://www.almacendelbioquimico.com.ar/",
+      "type": "landing"
     },
     {
       "title": "Distribuidora mayorista de productos veterinarios",
       "description": "Página de presentación para empresa dedicada a la venta de productos veterinarios",
       "image": "/sense.gif",
       "technologies": ["Next.js", "React", "Tailwind", "TypeScript"],
-      "href": "https://sense-mayorista.vercel.app/"
+      "href": "https://sense-mayorista.vercel.app/",
+      "type": "landing"
     }
   ],
   "sendEmail": "Enviar un email"

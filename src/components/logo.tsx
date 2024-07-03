@@ -1,7 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import Image from "next/image";
+
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
 interface Props {
   visible: boolean;
@@ -23,13 +24,14 @@ export default function Logo({ visible }: Props) {
             transition-all
             `}
       >
-        <Image
-          src={"/user.webp"}
-          alt="Jose Rotchen"
-          width={80}
-          height={80}
-          className="rounded-full w-10 h-10 object-cover"
-        />
+        <Avatar className="w-10 h-10 object-cover rounded-full border border-gray-300">
+          <AvatarImage
+            className="object-cover"
+            src={"/user.webp"}
+            alt="Jose Rotchen"
+          />
+          <AvatarFallback className="text-md rounded">JR</AvatarFallback>
+        </Avatar>
         Jose Rotchen
       </Link>
     </section>

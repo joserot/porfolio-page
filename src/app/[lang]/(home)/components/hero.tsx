@@ -1,7 +1,6 @@
-import Image from "next/image";
-
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFile, faLocationDot } from "@fortawesome/free-solid-svg-icons";
@@ -38,13 +37,14 @@ export default async function Hero({ lang }: Props) {
             border-b
             border-gray-300"
       >
-        <Image
-          className="w-32 h-32 md:w-40 md:h-40 object-cover rounded-full"
-          src={"/user.webp"}
-          width={200}
-          height={200}
-          alt="Jose Rotchen"
-        />
+        <Avatar className="w-32 h-32 md:w-40 md:h-40 object-cover rounded-full border border-gray-300">
+          <AvatarImage
+            className="object-cover"
+            src={"/user.webp"}
+            alt="Jose Rotchen"
+          />
+          <AvatarFallback className="text-md rounded">JR</AvatarFallback>
+        </Avatar>
         <div className="w-full max-w-[500px] md:max-w-none md:w-9/12 justify-center items-center flex flex-col md:items-start">
           <h1 className="text-2xl md:text-4xl font-bold">Jose Rotchen</h1>
           <h2 className="text-xl md:text-2xl font-semibold text-primary mb-2">

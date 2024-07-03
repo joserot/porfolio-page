@@ -1,8 +1,8 @@
 "use client";
 
 import { Badge } from "@/components/ui/badge";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
-import Image from "next/image";
 import Link from "next/link";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -47,13 +47,14 @@ export default function ProjectCard({
         }}
         className="w-full md:w-1/2 relative bg-cover bg-no-repeat cursor-pointer rounded-md overflow-hidden"
       >
-        <Image
-          src={image}
-          className="w-full h-52 object-cover rounded-md overflow-hidden transition duration-300 ease-in-out hover:scale-110"
-          alt={title}
-          width={300}
-          height={300}
-        />
+        <Avatar className="object-cover w-full h-52 rounded border border-gray-300">
+          <AvatarImage
+            className="object-cover overflow-hidden transition duration-300 ease-in-out hover:scale-110"
+            src={image}
+            alt={title}
+          />
+          <AvatarFallback className="text-md rounded">{title}</AvatarFallback>
+        </Avatar>
       </div>
       <div className="w-full p-3 md:p-0 md:w-1/2">
         <h3 className="text-2xl font-bold">{title}</h3>

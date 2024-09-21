@@ -1,8 +1,8 @@
 {
-  "position": "Desarrollador Frontend",
-  "title": "Soy un desarrollador Full-stack especializado en Frontend con 2 años de experiencia. Mi pasión es crear aplicaciones centrándome en la usabilidad, el rendimiento y la experiencia del usuario (UX). Tengo muchas ganas de seguir creciendo y aprendiendo cada día, y mi sueño es poder crear aplicaciones que mejoren la vida de miles de personas.",
+  "position": "Desarrollador Full-stack",
+  "title": "Soy un desarrollador de Full-stack apasionado por crear experiencias de usuario innovadoras y accesibles entendiendo y/o elaborando los requerimientos e implementando la lógica de negocio. En mi rol, he contribuido al desarrollo completo de distintos proyectos, logrando funcionalidad y rendimiento de las web apps.",
   "resumeBtnText": "CV",
-  "cvLink": "https://drive.google.com/file/d/126NVokNdygCJnmXUMQRYPrU2JtDJD6tA/view?usp=sharing",
+  "cvLink": "https://drive.google.com/file/d/1baE8xw1Q6pxkjDwgwFk2fghMe2opmdgE/view?usp=sharing",
   "educationTitle": "Educación",
   "educationList": [
     {
@@ -27,15 +27,16 @@
   "experienceTitle": "Experiencia",
   "experienceList": [
     {
-      "position": "Frontend Dev",
+      "position": "Frontend / Full-stack developer",
       "company": "Reestructuración Digital",
       "startDate": "Sep 2022",
       "endDate": "Actualidad",
       "work": [
-        "Desarrollé el Frontend de Busquemostrabajo.com desde cero, además de otros proyectos similares.",
+        "Ayudé en la elaboración de requerimientos funcionales y no funcionales.",
+        "Colaboré en la creación de la documentación de distintos proyectos.",
+        "Desarrollé el Frontend y el Backend en diversos proyectos y sistemas de la empresa, colaborando con un equipo multidisciplinario.",
         "Optimicé la web para obtener la mayor puntuación posible en Google Page Speed.",
         "Incrementé la velocidad de la primera carga en un 50%.",
-        "Mejoré el SEO y accesibilidad en los proyectos en los que trabajé.",
         "Apliqué CI/CD en los proyectos en los que trabajé."
       ]
     }
@@ -44,25 +45,18 @@
   "seeProject": "Ver proyecto",
   "projectsList": [
     {
-      "title": "Profesio",
-      "description": "Encuentra un profesional en tu ciudad para la tarea que necesites",
-      "image": "/servify.gif",
-      "technologies": [
-        "Next.js",
-        "React",
-        "Tailwind",
-        "TypeScript",
-        "Nest.js",
-        "MongoDB"
-      ],
-      "href": "https://servify-page.vercel.app/",
-      "type": "web"
-    },
-    {
       "title": "Busquemostrabajo.com",
       "description": "Portal de empleos donde las empresas pueden crear ofertas y darles seguimiento, asi como también los postulantes pueden ver datos de sus postulaciones, entre muchas otras funciones",
       "image": "/busquemos-trabajo.gif",
-      "technologies": ["Next.js", "React", "Sass", "Firebase", "JavaScript"],
+      "technologies": [
+        "Next.js",
+        "React",
+        "Sass",
+        "Firebase",
+        "JavaScript",
+        "Laravel",
+        "MySQL"
+      ],
       "href": "https://www.pe.busquemostrabajo.com/",
       "type": "web"
     },
@@ -78,8 +72,30 @@
       "title": "Siempre fit",
       "description": "Cursos de entrenamiento y nutrición, retos, planes de nutrición y entrenamiento personalizados",
       "image": "/siempre-fit.gif",
-      "technologies": ["Next.js", "React", "Sass", "TypeScript"],
+      "technologies": [
+        "Next.js",
+        "React",
+        "Sass",
+        "TypeScript",
+        "Laravel",
+        "MySQL"
+      ],
       "href": "https://siempre-fit.vercel.app/",
+      "type": "web"
+    },
+    {
+      "title": "Profesio",
+      "description": "Encuentra un profesional en tu ciudad para la tarea que necesites",
+      "image": "/servify.gif",
+      "technologies": [
+        "Next.js",
+        "React",
+        "Tailwind",
+        "TypeScript",
+        "Nest.js",
+        "MongoDB"
+      ],
+      "href": "https://servify-page.vercel.app/",
       "type": "web"
     },
     {
@@ -113,5 +129,6 @@
       "type": "landing"
     }
   ],
+  "technologiesTitle": "Tecnologías",
   "sendEmail": "Enviar un email"
 }

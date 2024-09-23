@@ -1,8 +1,8 @@
 {
-  "position": "Frontend Developer",
-  "title": "I am a Full-stack developer specializing in Frontend with 2 years of experience. My passion is creating applications focusing on usability, performance, and user experience (UX). I am eager to continue growing and learning every day, and my dream is to create applications that improve the lives of thousands of people.",
+  "position": "Full-stack Developer",
+  "title": "I am a Full-stack developer passionate about creating innovative and accessible user experiences by understanding and/or developing requirements and implementing business logic. In my role, I have contributed to the complete development of various projects, achieving functionality and performance of web apps.",
   "resumeBtnText": "Resume",
-  "cvLink": "https://drive.google.com/file/d/1mlPP0T_wno6WtO6QVFOph5NKvkzd9pel/view?usp=sharing",
+  "cvLink": "https://drive.google.com/file/d/1njBWx4pXnCsdfpkLSkdq6ZaaPgTtpq4N/view?usp=sharing",
   "educationTitle": "Education",
   "educationList": [
     {
@@ -27,12 +27,14 @@
   "experienceTitle": "Experience",
   "experienceList": [
     {
-      "position": "Frontend Dev",
+      "position": "Frontend / Full-stack developer",
       "company": "Reestructuración Digital",
       "startDate": "Sep 2022",
       "endDate": "Present",
       "work": [
-        "I developed the frontend of Busquemostrabajo.com from scratch, among other similar projects.",
+        "I assisted in the development of functional and non-functional requirements.",
+        "I collaborated in the creation of documentation for various projects.",
+        "I developed the Frontend and Backend in various company projects and systems, working with a multidisciplinary team.",
         "I optimized the website so that it has the best possible score in Google page speed.",
         "Increase the speed of the first load by 50%.",
         "I improved the SEO and accessibility of the pages I worked with.",
@@ -43,6 +45,37 @@
   "projectsTitle": "Projects",
   "seeProject": "See project",
   "projectsList": [
+    {
+      "title": "Busquemostrabajo.com",
+      "description": "Job portal where companies can create offers and track them, as well as applicants can see data about their applications, among many other functions",
+      "image": "/busquemos-trabajo.gif",
+      "technologies": [
+        "Next.js",
+        "React",
+        "Sass",
+        "Firebase",
+        "JavaScript",
+        "Laravel",
+        "MySQL"
+      ],
+      "href": "https://www.pe.busquemostrabajo.com/",
+      "type": "web"
+    },
+    {
+      "title": "Siempre fit",
+      "description": "Training and nutrition courses, challenges, nutrition plans and personalized training",
+      "image": "/siempre-fit.gif",
+      "technologies": [
+        "Next.js",
+        "React",
+        "Sass",
+        "TypeScript",
+        "Laravel",
+        "MySQL"
+      ],
+      "href": "https://siempre-fit.vercel.app/",
+      "type": "web"
+    },
     {
       "title": "Profesio",
       "description": "Find a professional in your city for the task you need",
@@ -58,14 +91,7 @@
       "href": "https://servify-page.vercel.app/",
       "type": "web"
     },
-    {
-      "title": "Busquemostrabajo.com",
-      "description": "Job portal where companies can create offers and track them, as well as applicants can see data about their applications, among many other functions",
-      "image": "/busquemos-trabajo.gif",
-      "technologies": ["Next.js", "React", "Sass", "Firebase", "JavaScript"],
-      "href": "https://www.pe.busquemostrabajo.com/",
-      "type": "web"
-    },
+
     {
       "title": "vivevacationsoutlet.com",
       "description": "Page to make reservations to different resorts in the available locations, all loaded from a CMS",
@@ -75,14 +101,6 @@
       "type": "landing"
     },
 
-    {
-      "title": "Siempre fit",
-      "description": "Training and nutrition courses, challenges, nutrition plans and personalized training",
-      "image": "/siempre-fit.gif",
-      "technologies": ["Next.js", "React", "Sass", "TypeScript"],
-      "href": "https://siempre-fit.vercel.app/",
-      "type": "web"
-    },
     {
       "title": "AMAC - Asociacion Maderera y Afines de Corrientes",
       "description": "Page of the Lumber and Related Association of Corrientes",

@@ -131,8 +131,6 @@ export default async function Technologies({ lang }: Props) {
         </div>
         <div className="w-full flex gap-2 flex-wrap">
           {technologiesList.map((technology) => {
-            console.log(technology.color);
-
             return (
               <Badge
                 style={{

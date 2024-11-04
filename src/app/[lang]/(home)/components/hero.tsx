@@ -4,7 +4,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFile, faLocationDot } from "@fortawesome/free-solid-svg-icons";
-import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 
 interface Props {
   lang: Lang;
@@ -60,7 +60,7 @@ export default async function Hero({ lang }: Props) {
 
           <div className="flex gap-3 items-center">
             <Button
-              className="flex items-center justify-center gap-3 font-bold"
+              className="flex items-center justify-center gap-3 font-bold text-white"
               asChild
             >
               <a href={dictionary.cvLink} target="_blank">
@@ -69,7 +69,7 @@ export default async function Hero({ lang }: Props) {
             </Button>
 
             <Button
-              className="flex items-center justify-center gap-3 bg-[#0e76a8] hover:bg-[#0e77a8d5] font-bold"
+              className="flex items-center justify-center gap-3 text-white bg-[#0e76a8] hover:bg-[#0e77a8d5] font-bold"
               asChild
             >
               <a
@@ -77,6 +77,17 @@ export default async function Hero({ lang }: Props) {
                 target="_blank"
               >
                 LinkedIn <FontAwesomeIcon icon={faLinkedin} />
+              </a>
+            </Button>
+            <Button
+              className="flex items-center justify-center gap-3 text-white bg-[#24292e] hover:bg-[#24292ed5] font-bold"
+              asChild
+            >
+              <a
+                href="https://github.com/joserot?tab=repositories"
+                target="_blank"
+              >
+                Github <FontAwesomeIcon icon={faGithub} />
               </a>
             </Button>
           </div>

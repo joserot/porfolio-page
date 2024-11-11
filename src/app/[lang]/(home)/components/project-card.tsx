@@ -53,7 +53,9 @@ export default function ProjectCard({
             src={image}
             alt={title}
           />
-          <AvatarFallback className="text-md rounded">{title}</AvatarFallback>
+          <AvatarFallback className="text-md rounded text-center">
+            {title}
+          </AvatarFallback>
         </Avatar>
       </div>
       <div className="w-full p-3 md:p-0 md:w-1/2">

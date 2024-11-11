@@ -114,7 +114,9 @@ export default function Header({ lang }: Props) {
             defaultValue={lang}
             required
             onValueChange={(value) => {
-              router.replace(`/${value}`);
+              router.replace(`/${value}`, {
+                scroll: false,
+              });
             }}
           >
             <SelectTrigger>

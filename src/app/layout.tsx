@@ -6,7 +6,6 @@ import "@/styles/globals.css";
 import { ThemeProvider } from "@/components/ui/theme-provider";
 
 import { GoogleAnalytics } from "@next/third-parties/google";
-import { Suspense } from "react";
 
 const font = Nunito({
   subsets: ["latin"],
@@ -34,9 +33,7 @@ export default function RootLayout({
         </ThemeProvider>
       </body>
       {process.env.GOOGLE_ANALYTICS_ID && (
-        <Suspense>
-          <GoogleAnalytics gaId={process.env.GOOGLE_ANALYTICS_ID} />
-        </Suspense>
+        <GoogleAnalytics gaId={process.env.GOOGLE_ANALYTICS_ID} />
       )}
     </html>
   );

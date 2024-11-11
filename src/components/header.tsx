@@ -62,6 +62,9 @@ export default function Header({ lang }: Props) {
         setVisible(false);
       }
     };
+
+    handleScroll();
+
     window.addEventListener("scroll", handleScroll);
     return () => {
       window.removeEventListener("scroll", handleScroll);
@@ -78,10 +81,7 @@ export default function Header({ lang }: Props) {
             sticky
             top-0
             z-30
-            p-3
-            md:py-5
-            max-w-3xl
-            mx-auto
+            w-full
             ${
               visible &&
               `bg-white 
@@ -93,55 +93,64 @@ export default function Header({ lang }: Props) {
             `}
     >
       <div
-        className=" 
+        className="
+            w-full
+            p-3
+            md:py-4
+            max-w-3xl
+            mx-auto"
+      >
+        <div
+          className=" 
             w-full
             flex
             flex-row
             items-center
             justify-between
             "
-      >
-        <Logo visible={visible} />
+        >
+          <Logo visible={visible} />
 
-        <div
-          className="
+          <div
+            className="
             flex
             items-center
             gap-3
         "
-        >
-          <Select
-            defaultValue={lang}
-            required
-            onValueChange={(value) => {
-              router.replace(`/${value}`, {
-                scroll: false,
-              });
-            }}
           >
-            <SelectTrigger>
-              <SelectValue />
-            </SelectTrigger>
-            <SelectContent
-              ref={(ref) => {
-                if (!ref) return;
-                ref.ontouchstart = (e) => {
-                  e.preventDefault();
-                };
+            <Select
+              defaultValue={lang}
+              required
+              onValueChange={(value) => {
+                router.replace(`/${value}`, {
+                  scroll: false,
+                });
               }}
             >
-              <SelectGroup>
-                {languages.map((language) => {
-                  return (
-                    <SelectItem key={language.value} value={language.value}>
-                      {language.label}
-                    </SelectItem>
-                  );
-                })}
-              </SelectGroup>
-            </SelectContent>
-          </Select>
-          <ModeToggle />
+              <SelectTrigger>
+                <SelectValue />
+              </SelectTrigger>
+              <SelectContent
+                ref={(ref) => {
+                  if (!ref) return;
+                  ref.ontouchstart = (e) => {
+                    e.preventDefault();
+                  };
+                }}
+              >
+                <SelectGroup>
+                  {languages.map((language) => {
+                    return (
+                      <SelectItem key={language.value} value={language.value}>
+                        {language.label}
+                      </SelectItem>
+                    );
+                  })}
+                </SelectGroup>
+              </SelectContent>
+            </Select>
+            <ModeToggle />
+          </div>
         </div>
       </div>
     </header>

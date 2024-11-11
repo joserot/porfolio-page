@@ -68,10 +68,11 @@ export default function ProjectCard({
         </div>
         <Link
           target="_blank"
-          className="text-primary flex items-center gap-2 hover:gap-4 hover:underline font-bold transition-all"
+          className="text-primary flex items-center gap-2 hover:gap-3 hover:underline font-bold transition-all"
           href={href}
         >
-          {seeProject} <FontAwesomeIcon icon={faArrowRight} />
+          {seeProject}{" "}
+          <FontAwesomeIcon className="w-3 h-auto" icon={faArrowRight} />
         </Link>
       </div>
     </div>

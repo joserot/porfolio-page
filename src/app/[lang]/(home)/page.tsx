@@ -15,13 +15,13 @@ export default async function Home(props: { params: Params }) {
 
   return (
     <main className="dark:bg-slate-800">
-      <Suspense>
+      <Suspense key={lang} fallback={<div>Loading...</div>}>
         <Header lang={lang} />
       </Suspense>
       <Hero lang={lang} />
       <Experience lang={lang} />
       <Education lang={lang} />
-      <Suspense fallback={<div>Loading...</div>}>
+      <Suspense key={lang}>
         <Projects lang={lang} />
       </Suspense>
       <Technologies lang={lang} />

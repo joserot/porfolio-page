@@ -37,7 +37,7 @@ export default async function Hero({ lang }: Props) {
             border-b
             border-gray-300"
       >
-        <Avatar className="w-32 h-32 md:w-40 md:h-40 object-cover rounded-full border border-gray-300">
+        <Avatar className="w-32 h-32 md:w-40 md:h-40 object-cover rounded-full border-4 border-gray-300">
           <AvatarImage
             className="object-cover"
             src={"/user.webp"}
@@ -51,7 +51,7 @@ export default async function Hero({ lang }: Props) {
             {dictionary.position}
           </h2>
           <Badge className="flex gap-2 items-center mb-2 bg-gray-300/50 hover:bg-gray-300/50 text-foreground text-sm">
-            <FontAwesomeIcon icon={faLocationDot} />
+            <FontAwesomeIcon className="w-3 h-auto" icon={faLocationDot} />
             Posadas, Misiones - Argentina
           </Badge>
           <p className="text-foreground mb-2 text-center md:text-left text-balance">
@@ -64,7 +64,8 @@ export default async function Hero({ lang }: Props) {
               asChild
             >
               <a href={dictionary.cvLink} target="_blank">
-                {dictionary.resumeBtnText} <FontAwesomeIcon icon={faFile} />
+                {dictionary.resumeBtnText}{" "}
+                <FontAwesomeIcon className="w-3 h-auto" icon={faFile} />
               </a>
             </Button>
 
@@ -76,7 +77,8 @@ export default async function Hero({ lang }: Props) {
                 href="https://www.linkedin.com/in/jose-rotchen/"
                 target="_blank"
               >
-                LinkedIn <FontAwesomeIcon icon={faLinkedin} />
+                LinkedIn{" "}
+                <FontAwesomeIcon className="w-4 h-auto" icon={faLinkedin} />
               </a>
             </Button>
             <Button
@@ -87,7 +89,8 @@ export default async function Hero({ lang }: Props) {
                 href="https://github.com/joserot?tab=repositories"
                 target="_blank"
               >
-                Github <FontAwesomeIcon icon={faGithub} />
+                Github{" "}
+                <FontAwesomeIcon className="w-4 h-auto" icon={faGithub} />
               </a>
             </Button>
           </div>

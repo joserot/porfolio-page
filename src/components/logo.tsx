@@ -15,7 +15,7 @@ export default function Logo({ visible }: Props) {
         href="/"
         className={`
             md:text-xl
-            font-extrabold
+            font-bold
             text-primary
             flex
             gap-2
@@ -24,7 +24,7 @@ export default function Logo({ visible }: Props) {
             transition-all
             `}
       >
-        <Avatar className="w-10 h-10 object-cover rounded-full border border-gray-300">
+        <Avatar className="w-10 h-10 object-cover rounded-full border-2 border-gray-300">
           <AvatarImage
             className="object-cover"
             src={"/user.webp"}

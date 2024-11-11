@@ -5,6 +5,7 @@ import Projects from "./components/projects";
 import Experience from "./components/experience";
 import Education from "./components/education";
 import Technologies from "./components/technoligies";
+import { Suspense } from "react";
 
 type Params = Promise<{ lang: Lang }>;
 
@@ -14,11 +15,15 @@ export default async function Home(props: { params: Params }) {
 
   return (
     <main className="dark:bg-slate-800">
-      <Header lang={lang} />
+      <Suspense>
+        <Header lang={lang} />
+      </Suspense>
       <Hero lang={lang} />
       <Experience lang={lang} />
       <Education lang={lang} />
-      <Projects lang={lang} />
+      <Suspense fallback={<div>Loading...</div>}>
+        <Projects lang={lang} />
+      </Suspense>
       <Technologies lang={lang} />
       <Footer lang={lang} />
     </main>

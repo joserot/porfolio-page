@@ -6,11 +6,12 @@ import Experience from "./components/experience";
 import Education from "./components/education";
 import Technologies from "./components/technoligies";
 
-interface Props {
-  params: { lang: Lang };
-}
+type Params = Promise<{ lang: Lang }>;
 
-export default function Home({ params: { lang } }: Props) {
+export default async function Home(props: { params: Params }) {
+  const params = await props.params;
+  const lang: Lang = params.lang;
+
   return (
     <main className="dark:bg-slate-800">
       <Header lang={lang} />

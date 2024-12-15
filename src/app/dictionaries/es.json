@@ -2,26 +2,26 @@
   "position": "Desarrollador Full-stack",
   "title": "Full-stack apasionado por crear experiencias de usuario innovadoras y accesibles entendiendo y/o elaborando los requerimientos e implementando la lógica de negocio. En mi rol, he contribuido al desarrollo completo de distintos proyectos, logrando funcionalidad y rendimiento de las web apps.",
   "resumeBtnText": "CV",
-  "cvLink": "https://drive.google.com/file/d/1baE8xw1Q6pxkjDwgwFk2fghMe2opmdgE/view?usp=sharing",
+  "cvLink": "https://drive.google.com/file/d/17eLiXyHm8xfpMr07-HgpmedEgiV7WVHI/view?usp=sharing",
   "educationTitle": "Educación",
   "educationList": [
     {
       "title": "Licenciatura en informática",
       "instituttion": "Universidad Siglo 21",
-      "startDate": "Ene 2024",
+      "startDate": "Ene 2023",
       "endDate": "Actualidad"
     },
     {
       "title": "Técnicatura en programación",
       "instituttion": "Teclab",
-      "startDate": "Ene 2022",
-      "endDate": "Ene 2024"
+      "startDate": "Ene 2021",
+      "endDate": "Ene 2023"
     },
     {
       "title": "Desarrollo Full-Stack",
       "instituttion": "APX",
-      "startDate": "Ene 2021",
-      "endDate": "Dic 2021"
+      "startDate": "Ene 2020",
+      "endDate": "Ene 2021"
     }
   ],
   "experienceTitle": "Experiencia",
@@ -29,7 +29,7 @@
     {
       "position": "Frontend / Full-stack developer",
       "company": "Reestructuración Digital",
-      "startDate": "Sep 2022",
+      "startDate": "Sep 2021",
       "endDate": "Actualidad",
       "work": [
         "Ayudé en la elaboración de requerimientos funcionales y no funcionales.",

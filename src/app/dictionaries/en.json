@@ -2,26 +2,26 @@
   "position": "Full-stack Developer",
   "title": "Full-stack developer passionate about creating innovative and accessible user experiences by understanding and/or developing requirements and implementing business logic. In my role, I have contributed to the complete development of various projects, achieving functionality and performance of web apps.",
   "resumeBtnText": "Resume",
-  "cvLink": "https://drive.google.com/file/d/1njBWx4pXnCsdfpkLSkdq6ZaaPgTtpq4N/view?usp=sharing",
+  "cvLink": "https://drive.google.com/file/d/17eLiXyHm8xfpMr07-HgpmedEgiV7WVHI/view?usp=sharing",
   "educationTitle": "Education",
   "educationList": [
     {
       "title": "Degree in computer science",
       "instituttion": "Universidad Siglo 21",
-      "startDate": "Jan 2024",
+      "startDate": "Jan 2023",
       "endDate": "Present"
     },
     {
       "title": "Programming Technique",
       "instituttion": "Teclab",
-      "startDate": "Jan 2022",
-      "endDate": "Jan 2024"
+      "startDate": "Jan 2021",
+      "endDate": "Jan 2023"
     },
     {
       "title": "Full-Stack Development",
       "instituttion": "APX",
-      "startDate": "Jan 2021",
-      "endDate": "Dec 2021"
+      "startDate": "Jan 2020",
+      "endDate": "Jan 2021"
     }
   ],
   "experienceTitle": "Experience",

@@ -93,15 +93,6 @@
     },
 
     {
-      "title": "vivevacationsoutlet.com",
-      "description": "Page to make reservations to different resorts in the available locations, all loaded from a CMS",
-      "image": "/vvo.gif",
-      "technologies": ["Next.js", "React", "Contentful", "TypeScript"],
-      "href": "https://www.vivevacationsoutlet.com/",
-      "type": "landing"
-    },
-
-    {
       "title": "AMAC - Asociacion Maderera y Afines de Corrientes",
       "description": "Page of the Lumber and Related Association of Corrientes",
       "image": "/amac.gif",

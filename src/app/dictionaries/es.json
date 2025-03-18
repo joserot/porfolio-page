@@ -60,14 +60,7 @@
       "href": "https://www.pe.busquemostrabajo.com/",
       "type": "web"
     },
-    {
-      "title": "vivevacationsoutlet.com",
-      "description": "Página para realizar reservas a distintos resorts en las ubicaciones disponibles, todo cargado desde un CMS",
-      "image": "/vvo.gif",
-      "technologies": ["Next.js", "React", "Contentful", "TypeScript"],
-      "href": "https://www.vivevacationsoutlet.com/",
-      "type": "landing"
-    },
+
     {
       "title": "Siempre fit",
       "description": "Cursos de entrenamiento y nutrición, retos, planes de nutrición y entrenamiento personalizados",

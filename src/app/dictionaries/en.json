@@ -50,13 +50,48 @@
       "description": "Job portal where companies can create offers and track them, as well as applicants can see data about their applications, among many other functions",
       "image": "/busquemos-trabajo.gif",
       "technologies": [
-        "Next.js",
-        "React",
-        "Sass",
-        "Firebase",
-        "JavaScript",
-        "Laravel",
-        "MySQL"
+        {
+          "name": "Next.js",
+          "color": "#000",
+          "text": "#fff",
+          "logo": "next.svg"
+        },
+        {
+          "name": "React.js",
+          "color": "#00d8ff",
+          "text": "#fff",
+          "logo": "react.png"
+        },
+        {
+          "name": "Sass",
+          "color": "#c69",
+          "text": "#fff",
+          "logo": "sass.svg"
+        },
+        {
+          "name": "Firebase",
+          "color": "#FF9100",
+          "text": "#fff",
+          "logo": "firebase.svg"
+        },
+        {
+          "name": "JavaScript",
+          "color": "#f7df1e",
+          "text": "#000",
+          "logo": "javascript.svg"
+        },
+        {
+          "name": "Laravel",
+          "color": "#f26c4f",
+          "text": "#fff",
+          "logo": "laravel.png"
+        },
+        {
+          "name": "MySQL",
+          "color": "#007396",
+          "text": "#fff",
+          "logo": "mysql.svg"
+        }
       ],
       "href": "https://www.pe.busquemostrabajo.com/",
       "type": "web"
@@ -66,12 +101,42 @@
       "description": "Training and nutrition courses, challenges, nutrition plans and personalized training",
       "image": "/siempre-fit.gif",
       "technologies": [
-        "Next.js",
-        "React",
-        "Sass",
-        "TypeScript",
-        "Laravel",
-        "MySQL"
+        {
+          "name": "Next.js",
+          "color": "#000",
+          "text": "#fff",
+          "logo": "next.svg"
+        },
+        {
+          "name": "React.js",
+          "color": "#00d8ff",
+          "text": "#fff",
+          "logo": "react.png"
+        },
+        {
+          "name": "Sass",
+          "color": "#c69",
+          "text": "#fff",
+          "logo": "sass.svg"
+        },
+        {
+          "name": "TypeScript",
+          "color": "#3178c6",
+          "text": "#fff",
+          "logo": "typescript.svg"
+        },
+        {
+          "name": "Laravel",
+          "color": "#f26c4f",
+          "text": "#fff",
+          "logo": "laravel.png"
+        },
+        {
+          "name": "MySQL",
+          "color": "#007396",
+          "text": "#fff",
+          "logo": "mysql.svg"
+        }
       ],
       "href": "https://siempre-fit.vercel.app/",
       "type": "web"
@@ -81,12 +146,42 @@
       "description": "Find a professional in your city for the task you need",
       "image": "/servify.gif",
       "technologies": [
-        "Next.js",
-        "React",
-        "Tailwind",
-        "TypeScript",
-        "Nest.js",
-        "MongoDB"
+        {
+          "name": "Next.js",
+          "color": "#000",
+          "text": "#fff",
+          "logo": "next.svg"
+        },
+        {
+          "name": "React.js",
+          "color": "#00d8ff",
+          "text": "#fff",
+          "logo": "react.png"
+        },
+        {
+          "name": "Tailwind",
+          "color": "#38bdf8",
+          "text": "#fff",
+          "logo": "tailwind.svg"
+        },
+        {
+          "name": "TypeScript",
+          "color": "#3178c6",
+          "text": "#fff",
+          "logo": "typescript.svg"
+        },
+        {
+          "name": "Nest.js",
+          "color": "#e0234e",
+          "text": "#fff",
+          "logo": "nest.svg"
+        },
+        {
+          "name": "MongoDB",
+          "color": "#4ea94b",
+          "text": "#fff",
+          "logo": "mongodb.png"
+        }
       ],
       "href": "https://servify-page.vercel.app/",
       "type": "web"
@@ -97,11 +192,36 @@
       "description": "Page of the Lumber and Related Association of Corrientes",
       "image": "/amac.gif",
       "technologies": [
-        "Next.js",
-        "React",
-        "Javacript",
-        "CSS Modules",
-        "MongoDB"
+        {
+          "name": "Next.js",
+          "color": "#000",
+          "text": "#fff",
+          "logo": "next.svg"
+        },
+        {
+          "name": "React.js",
+          "color": "#00d8ff",
+          "text": "#fff",
+          "logo": "react.png"
+        },
+        {
+          "name": "Tailwind",
+          "color": "#38bdf8",
+          "text": "#fff",
+          "logo": "tailwind.svg"
+        },
+        {
+          "name": "JavaScript",
+          "color": "#f7df1e",
+          "text": "#000",
+          "logo": "javascript.svg"
+        },
+        {
+          "name": "MongoDB",
+          "color": "#4ea94b",
+          "text": "#fff",
+          "logo": "mongodb.png"
+        }
       ],
       "href": "https://amac-nine.vercel.app/",
       "type": "landing"
@@ -111,7 +231,32 @@
       "title": "Almacen del bioquímico",
       "description": "Presentation page for a company dedicated to the sale of biochemical products",
       "image": "/adb.gif",
-      "technologies": ["Next.js", "React", "Sass", "TypeScript"],
+      "technologies": [
+        {
+          "name": "Next.js",
+          "color": "#000",
+          "text": "#fff",
+          "logo": "next.svg"
+        },
+        {
+          "name": "React.js",
+          "color": "#00d8ff",
+          "text": "#fff",
+          "logo": "react.png"
+        },
+        {
+          "name": "Sass",
+          "color": "#c69",
+          "text": "#fff",
+          "logo": "sass.svg"
+        },
+        {
+          "name": "TypeScript",
+          "color": "#3178c6",
+          "text": "#fff",
+          "logo": "typescript.svg"
+        }
+      ],
       "href": "https://www.almacendelbioquimico.com.ar/",
       "type": "landing"
     },
@@ -119,7 +264,32 @@
       "title": "Distribuidora mayorista de productos veterinarios",
       "description": "Presentation page for a company dedicated to the sale of veterinary products",
       "image": "/sense.gif",
-      "technologies": ["Next.js", "React", "Tailwind", "TypeScript"],
+      "technologies": [
+        {
+          "name": "Next.js",
+          "color": "#000",
+          "text": "#fff",
+          "logo": "next.svg"
+        },
+        {
+          "name": "React.js",
+          "color": "#00d8ff",
+          "text": "#fff",
+          "logo": "react.png"
+        },
+        {
+          "name": "Tailwind",
+          "color": "#38bdf8",
+          "text": "#fff",
+          "logo": "tailwind.svg"
+        },
+        {
+          "name": "TypeScript",
+          "color": "#3178c6",
+          "text": "#fff",
+          "logo": "typescript.svg"
+        }
+      ],
       "href": "https://sense-mayorista.vercel.app/",
       "type": "landing"
     }

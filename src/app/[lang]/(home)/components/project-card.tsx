@@ -4,6 +4,7 @@ import { Badge } from "@/components/ui/badge";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
 import Link from "next/link";
+import Image from "next/image";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
@@ -12,7 +13,7 @@ interface Props {
   title: string;
   description: string;
   image: string;
-  technologies: string[];
+  technologies: any[];
   href: string;
   seeProject: string;
 }
@@ -62,8 +63,23 @@ export default function ProjectCard({
         <h3 className="text-2xl font-bold">{title}</h3>
         <p className="text-foreground">{description}</p>
         <div className="flex gap-2 flex-wrap py-1 mb-2">
-          {technologies.map((tech) => {
-            return <Badge key={tech}>{tech}</Badge>;
+          {technologies.map((technology) => {
+            return (
+              <Badge
+                variant={"secondary"}
+                className={`md:text-base font-bold hover:scale-105 transition-all duration-300 ease-in-out flex items-center gap-2`}
+                key={technology.name}
+              >
+                <Image
+                  src={`/logos/${technology.logo}`}
+                  alt={technology.name}
+                  width={20}
+                  height={20}
+                  className="w-6 h-auto"
+                />
+                {technology.name}
+              </Badge>
+            );
           })}
         </div>
         <Link

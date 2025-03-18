@@ -151,10 +151,6 @@ export default async function Technologies({ lang }: Props) {
           {technologiesList.map((technology) => {
             return (
               <Badge
-                // style={{
-                //   backgroundColor: technology.color,
-                //   color: technology.text,
-                // }}
                 variant={"secondary"}
                 className={`md:text-base font-bold hover:scale-105 transition-all duration-300 ease-in-out flex items-center gap-2`}
                 key={technology.name}

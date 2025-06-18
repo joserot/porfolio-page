@@ -19,11 +19,11 @@ export default async function Hero({ lang }: Props) {
             flex
             flex-col
             items-center
-            justify-center     
+            justify-center
             "
     >
       <div
-        className=" 
+        className="
             w-11/12
             max-w-3xl
             flex
@@ -59,7 +59,7 @@ export default async function Hero({ lang }: Props) {
           </p>
 
           <div className="flex gap-3 items-center">
-            <Button
+            {/* <Button
               className="flex items-center justify-center gap-3 font-bold text-white"
               asChild
             >
@@ -67,7 +67,7 @@ export default async function Hero({ lang }: Props) {
                 {dictionary.resumeBtnText}{" "}
                 <FontAwesomeIcon className="w-3 h-auto" icon={faFile} />
               </a>
-            </Button>
+            </Button> */}
 
             <Button
               className="flex items-center justify-center gap-3 text-white bg-[#0e76a8] hover:bg-[#0e77a8d5] font-bold"

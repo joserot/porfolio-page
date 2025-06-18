@@ -26,11 +26,22 @@
   ],
   "experienceTitle": "Experiencia",
   "experienceList": [
+     {
+      "position": "Full-stack developer",
+      "company": "Halaxia",
+      "startDate": "Abr 2025",
+      "endDate": "Actualidad",
+      "work": [
+        "Investigar, analizar y elaborar requerimientos funcionales y no funcionales.",
+        "Colaborar en la creación de la documentación de distintos proyectos.",
+        "Desarrollar el Frontend y el Backend en diversos proyectos y sistemas de la empresa"
+      ]
+    },
     {
       "position": "Frontend / Full-stack developer",
       "company": "Reestructuración Digital",
       "startDate": "Sep 2021",
-      "endDate": "Actualidad",
+      "endDate": "Abr 2025",
       "work": [
         "Ayudé en la elaboración de requerimientos funcionales y no funcionales.",
         "Colaboré en la creación de la documentación de distintos proyectos.",
@@ -44,6 +55,78 @@
   "projectsTitle": "Proyectos",
   "seeProject": "Ver proyecto",
   "projectsList": [
+     {
+      "title": "Halaxia",
+      "description": "Portal de empleo y sistema ATS para la empresa Halaxia, donde las empresas pueden crear ofertas de trabajo y darles seguimiento, así como los postulantes pueden ver datos sobre sus postulaciones, entre muchas otras funciones.",
+      "image": "/halaxia-gif.gif",
+      "technologies": [
+        {
+          "name": "Next.js",
+          "color": "#000",
+          "text": "#fff",
+          "logo": "next.svg"
+        },
+        {
+          "name": "React.js",
+          "color": "#00d8ff",
+          "text": "#fff",
+          "logo": "react.png"
+        },
+        {
+          "name": "Sass",
+          "color": "#c69",
+          "text": "#fff",
+          "logo": "sass.svg"
+        },
+       {
+          "name": "TypeScript",
+          "color": "#3178c6",
+          "text": "#fff",
+          "logo": "typescript.svg"
+        },
+        {
+          "name": "Laravel",
+          "color": "#f26c4f",
+          "text": "#fff",
+          "logo": "laravel.png"
+        },
+        {
+          "name": "MySQL",
+          "color": "#007396",
+          "text": "#fff",
+          "logo": "mysql.svg"
+        }
+      ],
+      "href": "https://www.halaxia.com/",
+      "type": "web"
+    },
+     {
+      "title": "Busencu",
+      "description": "Portal de empleo y sistema ATS para la empresa Busencu",
+      "image": "/busencu-gif.gif",
+      "technologies": [
+        {
+          "name": "Wordpress",
+          "color": "#000",
+          "text": "#fff",
+          "logo": "wordpress.svg"
+        },
+        {
+          "name": "Laravel",
+          "color": "#f26c4f",
+          "text": "#fff",
+          "logo": "laravel.png"
+        },
+        {
+          "name": "MySQL",
+          "color": "#007396",
+          "text": "#fff",
+          "logo": "mysql.svg"
+        }
+      ],
+      "href": "https://busencu.com/",
+      "type": "web"
+    },
     {
       "title": "Busquemostrabajo.com",
       "description": "Portal de empleos donde las empresas pueden crear ofertas y darles seguimiento, asi como también los postulantes pueden ver datos de sus postulaciones, entre muchas otras funciones",
@@ -138,7 +221,7 @@
           "logo": "mysql.svg"
         }
       ],
-      "href": "https://siempre-fit.vercel.app/",
+      "href": "https://www.siemprefit.es/",
       "type": "web"
     },
     {

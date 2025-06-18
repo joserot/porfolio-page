@@ -26,11 +26,22 @@
   ],
   "experienceTitle": "Experience",
   "experienceList": [
+     {
+      "position": "Full-stack developer",
+      "company": "Halaxia",
+      "startDate": "Apr 2025",
+      "endDate": "Present",
+      "work": [
+        "I investigate, analyze, and develop functional and non-functional requirements.",
+        "I collaborate in the creation of documentation for various projects.",
+        "I develop the Frontend and Backend in various company projects and systems."
+      ]
+    },
     {
       "position": "Frontend / Full-stack developer",
       "company": "Reestructuración Digital",
       "startDate": "Sep 2022",
-      "endDate": "Present",
+      "endDate": "Apr 2025",
       "work": [
         "I assisted in the development of functional and non-functional requirements.",
         "I collaborated in the creation of documentation for various projects.",
@@ -45,8 +56,80 @@
   "projectsTitle": "Projects",
   "seeProject": "See project",
   "projectsList": [
+      {
+      "title": "Halaxia",
+      "description": "Job portal and ATS system for the Halaxia company, where companies can create job offers and track them, as well as applicants can see data about their applications, among many other functions",
+      "image": "/halaxia-gif.gif",
+      "technologies": [
+        {
+          "name": "Next.js",
+          "color": "#000",
+          "text": "#fff",
+          "logo": "next.svg"
+        },
+        {
+          "name": "React.js",
+          "color": "#00d8ff",
+          "text": "#fff",
+          "logo": "react.png"
+        },
+        {
+          "name": "Sass",
+          "color": "#c69",
+          "text": "#fff",
+          "logo": "sass.svg"
+        },
+       {
+          "name": "TypeScript",
+          "color": "#3178c6",
+          "text": "#fff",
+          "logo": "typescript.svg"
+        },
+        {
+          "name": "Laravel",
+          "color": "#f26c4f",
+          "text": "#fff",
+          "logo": "laravel.png"
+        },
+        {
+          "name": "MySQL",
+          "color": "#007396",
+          "text": "#fff",
+          "logo": "mysql.svg"
+        }
+      ],
+      "href": "https://www.halaxia.com/",
+      "type": "web"
+    },
+     {
+      "title": "Busencu",
+      "description": "Job portal  and ATS system for the Busencu company",
+      "image": "/busencu-gif.gif",
+      "technologies": [
+        {
+          "name": "Wordpress",
+          "color": "#000",
+          "text": "#fff",
+          "logo": "wordpress.svg"
+        },
+        {
+          "name": "Laravel",
+          "color": "#f26c4f",
+          "text": "#fff",
+          "logo": "laravel.png"
+        },
+        {
+          "name": "MySQL",
+          "color": "#007396",
+          "text": "#fff",
+          "logo": "mysql.svg"
+        }
+      ],
+      "href": "https://busencu.com/",
+      "type": "web"
+    },
     {
-      "title": "Busquemostrabajo.com",
+      "title": "Busquemos trabajo",
       "description": "Job portal where companies can create offers and track them, as well as applicants can see data about their applications, among many other functions",
       "image": "/busquemos-trabajo.gif",
       "technologies": [
@@ -138,7 +221,7 @@
           "logo": "mysql.svg"
         }
       ],
-      "href": "https://siempre-fit.vercel.app/",
+      "href": "https://www.siemprefit.es/",
       "type": "web"
     },
     {
